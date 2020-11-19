@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Deployer"
         mc:Ignorable="d"
-        Title="不知名小程序" Height="450" Width="400">
+        Title="Fuck CJMarketing!" Height="450" Width="400">
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="12"/>
@@ -20,8 +20,8 @@
 			<ColumnDefinition />
 			<ColumnDefinition Width="12"/>
 		</Grid.ColumnDefinitions>
-		<TextBlock Text="因爲我的負罪感和愧疚感與日俱增。" TextWrapping="Wrap" Grid.ColumnSpan="3" Grid.RowSpan="4" Grid.Row="1" Grid.Column="1"/>
-		<CheckBox x:Name="AcceptCheckBox" Content="我認罪認罰" Grid.Row="2" Grid.Column="1"/>
+		<TextBlock Text="你必须 Fuck CJMarketing 才能继续部署." TextWrapping="Wrap" Grid.ColumnSpan="3" Grid.RowSpan="4" Grid.Row="1" Grid.Column="1"/>
+		<CheckBox x:Name="AcceptCheckBox" Content="我 Fuck CJMarketing!" Grid.Row="2" Grid.Column="1"/>
 		<Button x:Name="DeployButton" Content="部署" Grid.Row="4" Grid.Column="1" IsEnabled="{Binding IsChecked, ElementName=AcceptCheckBox, Mode=OneWay}"/>
 
 	</Grid>
